@@ -1,8 +1,8 @@
 FROM node
 
-WORKDIR /learning_docker
+WORKDIR /app
 
-COPY . /learning_docker/ 
+COPY . /app/ 
 # you can write copy like this as well: COPY: . . (by using 2 dot)
 
 RUN npm install
